@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1862.0057"
+   height="852.03046"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="pymission_jacobian.pdf">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="751"
+     id="namedview100"
+     showgrid="false"
+     inkscape:zoom="0.30934384"
+     inkscape:cx="1068.6962"
+     inkscape:cy="190.89684"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10" />
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3874"
+     y="392.32635"
+     x="1144.7747"><tspan
+       id="tspan3876"
+       y="392.32635"
+       x="1144.7747" /></text>
+  <text
+     x="890.13727"
+     y="311.46921"
+     id="text3854"
+     xml:space="preserve"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     sodipodi:linespacing="125%"><tspan
+       x="890.13727"
+       y="311.46921"
+       id="tspan3856">dW<tspan
+   id="tspan3858"
+   style="font-size:65.00091553%;baseline-shift:sub">fuel</tspan></tspan></text>
+  <path
+     d="m 888.16174,335.38091 174.28566,0"
+     id="path3866"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 888.16174,335.24285 174.28566,0"
+     id="path3880"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     inkscape:connector-curvature="0" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text2985"
+     y="311.46924"
+     x="496.30853"><tspan
+       id="tspan2987"
+       y="311.46924"
+       x="496.30853">dW<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan2989">fuel</tspan></tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text2991"
+     y="392.32635"
+     x="509.06024"><tspan
+       id="tspan2993"
+       y="392.32635"
+       x="509.06024">dAlt<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan2997">0</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path2999"
+     d="m 497.19004,335.38091 174.2857,0" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3769"
+     y="311.46924"
+     x="496.30853"><tspan
+       id="tspan3771"
+       y="311.46924"
+       x="496.30853">dW<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3773">fuel</tspan></tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3775"
+     y="392.32635"
+     x="509.06024"><tspan
+       id="tspan3777"
+       y="392.32635"
+       x="509.06024">dAlt<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3779">0</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3781"
+     d="m 497.19004,335.38091 174.2857,0" />
+  <path
+     d="m 731.01884,335.38095 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z"
+     id="path3882"
+     style="fill:#000000;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 785.30454,335.38095 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z"
+     id="path3884"
+     style="fill:#000000;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     d="m 842.44744,335.38095 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z"
+     id="path3886"
+     style="fill:#000000;stroke:none"
+     inkscape:connector-curvature="0" />
+  <text
+     x="903.29852"
+     y="392.32635"
+     id="text3907"
+     xml:space="preserve"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     sodipodi:linespacing="125%"><tspan
+       x="903.29852"
+       y="392.32635"
+       id="tspan3909">dAlt<tspan
+   id="tspan3913"
+   style="font-size:65.00091553%;baseline-shift:sub">n</tspan></tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3925"
+     y="311.74609"
+     x="1640.5979"><tspan
+       id="tspan3927"
+       y="311.74609"
+       x="1640.5979">dW<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3929">fuel</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3931"
+     d="m 1638.6222,335.65776 174.2858,0" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3933"
+     d="m 1638.6222,335.5197 174.2858,0" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3937"
+     y="311.74609"
+     x="1256.4668"><tspan
+       id="tspan3939"
+       y="311.74609"
+       x="1256.4668">dW<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3941">fuel</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3949"
+     d="m 1257.3484,335.65776 174.2857,0" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3951"
+     y="311.74609"
+     x="1256.4668"><tspan
+       id="tspan3953"
+       y="311.74609"
+       x="1256.4668">dW<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3955">fuel</tspan></tspan></text>
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3957"
+     y="392.60327"
+     x="1269.2185"><tspan
+       id="tspan3959"
+       y="392.60327"
+       x="1269.2185">dMN<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan3961">0</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path3963"
+     d="m 1257.3484,335.65776 174.2857,0" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3993"
+     d="m 1481.4793,335.6578 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3995"
+     d="m 1535.7651,335.6578 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3997"
+     d="m 1592.9079,335.6578 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:60px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text3999"
+     y="392.60321"
+     x="1653.7593"><tspan
+       id="tspan4001"
+       y="392.60321"
+       x="1653.7593">dMN<tspan
+   style="font-size:65.00091553%;baseline-shift:sub"
+   id="tspan4003">n</tspan></tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path4143"
+     d="m 518.26604,231.72304 -72.731,0 0,206.87064 76.7716,0"
+     sodipodi:nodetypes="cccc" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path4145"
+     d="m 1774.2747,438.59368 72.731,0 0,-206.87064 -76.7716,0"
+     sodipodi:nodetypes="cccc" />
+  <text
+     sodipodi:linespacing="125%"
+     style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"
+     id="text4185"
+     y="55.585938"
+     x="9.53125"><tspan
+       style="font-size:60px"
+       id="tspan4187"
+       y="55.585938"
+       x="9.53125">Adjoint derivatives</tspan><tspan
+       style="font-size:60px"
+       id="tspan4189"
+       y="130.58591"
+       x="9.53125">compute Jacobian 1 row </tspan><tspan
+       style="font-size:60px"
+       id="tspan4191"
+       y="205.58592"
+       x="9.53125">at a time </tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path4193"
+     d="m 239.416,245.90824 146.67231,79.60669"
+     sodipodi:nodetypes="cc" />
+  <g
+     id="g3231"
+     transform="translate(-370.13828,1.7518887)">
+    <text
+       x="1179.288"
+       y="660.33514"
+       id="text4197"
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       sodipodi:linespacing="125%"><tspan
+         x="1179.288"
+         y="660.33514"
+         id="tspan4199"
+         style="font-size:60px">forward derivatives</tspan><tspan
+         x="1179.288"
+         y="735.33514"
+         id="tspan4201"
+         style="font-size:60px">compute Jacobian 1  </tspan><tspan
+         x="1179.288"
+         y="810.33514"
+         id="tspan4203"
+         style="font-size:60px">column at a time </tspan></text>
+    <path
+       d="m 1446.9784,593.66512 -251.528,-138.3909"
+       id="path4205"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1446.9784,593.66512 -45.4569,-138.3909"
+       id="path4207"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1446.9784,593.66512 65.6599,-138.3909"
+       id="path4209"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1446.9784,593.66512 138.3909,-138.3909"
+       id="path4211"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1446.9784,593.66512 320.2183,-138.3909"
+       id="path4213"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1446.9784,593.66512 196.9797,-138.3909"
+       id="path4215"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0" />
+  </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3225"
+     d="m 1125.402,332.1483 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3227"
+     d="m 1179.6877,332.1483 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;stroke:none"
+     id="path3229"
+     d="m 1236.8306,332.1483 a 12.85715,12.85715 0 0 1 -25.7143,0 12.85715,12.85715 0 1 1 25.7143,0 z" />
+</svg>
