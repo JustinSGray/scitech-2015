@@ -129,13 +129,58 @@
 % But to use gradient based optimization, you have to compute the
 % gradients. If you look at most applications today, you'll 
 % find this is done in one of two ways. 
+\frame{
+\frametitle{Better modeling tools have set the stage for \\ 
+            optimization to play a larger role in design}
+    \begin{columns}
+    \begin{column}{.5\textwidth}
+      Experiment
+      \vspace{.5em}
+      \includegraphics[width=\textwidth]{images/sim_airplane_real}
+    \end{column}
+    \begin{column}{.5\textwidth}
+      Simulation
+      \vspace{.5em}
+      \includegraphics[width=\textwidth]{images/sim_airplane_cfd}
+    \end{column}
+    \end{columns}
+}
+
+\frame{
+\frametitle{Large scale optimization is particularly challenging}
+  \hspace{5em}\includegraphics[width=.7\textwidth]{images/opt_cycle_budget}
+}
+
+\frame{
+\frametitle{Gradient based optimization is \\
+            very efficient for large design spaces}
+  \centering
+  \includegraphics[width=.85\textwidth]{images/gradfree_v_gradbased}
+}
+
+\frame{
+  \frametitle{Gradient based methods achieve super-linear\\ 
+              scaling with increasing problem size}
+  \centering
+  \includegraphics[width=.7\textwidth]{images/opt_scaling}
+}
+
 
 
 \frame{
-  \frametitle{There is a gap between solution methods for \\
-              high and low order design optimizations}
+  \frametitle{But first you have to get get the gradient!}
   \centering
-  \includegraphics[height=.75\textheight]{images/complexity-cartoon}
+  \includegraphics[height=.75\textheight]{images/complexity-cartoon} 
+}
+
+\frame{
+  \frametitle{Gradients are useful outside of optimization too}
+
+  \LARGE\begin{itemize}[leftmargin=3.5em,itemsep=1em]
+    \item Uncertainty Quantification 
+    \item Sensitivity Analysis 
+    \item Dimensionality Reduction
+  \end{itemize}
 }
 
 
@@ -155,6 +200,7 @@
     [Hendricks, Jones, Gray 2014]
   \end{textblock}
 }
+
 
 \frame{
   \frametitle{OpenMDAO bridges the methods gap via \\
@@ -256,6 +302,12 @@
 }
 
 \frame{
+  \frametitle{Model has a very complex sturcture  \\ 
+              built with NREL WISDEM }
+  \includegraphics[width=\textwidth]{images/wt_xdsm} 
+}
+
+\frame{
   \frametitle{5x speed up with mixed analytic and FD gradients}
   \centering
   \tiny
@@ -309,34 +361,45 @@
 \frame{
   \frametitle{Cubesat Mission Optimization with \\
               has 25,292 design vars. and scalable discretization}
-  \begin{columns}
-    \begin{column}{.4\textwidth}
-      \includegraphics[width=\textwidth]{images/cadre_drawing}
-    \end{column}
-    \begin{column}{.4\textwidth}
-      \includegraphics[width=.8\textwidth]{images/allpts_gearth_mcmurdo}
-    \end{column}
-  \end{columns}
+  % \begin{columns}
+  %   \begin{column}{.4\textwidth}
+  %     \includegraphics[width=\textwidth]{images/cadre_drawing}
+  %   \end{column}
+  %   \begin{column}{.4\textwidth}
+  %     \includegraphics[width=.8\textwidth]{images/allpts_gearth_mcmurdo}
+  %   \end{column}
+  % \end{columns}
+  % \vspace{1em}
+  % \centering
+  % \scriptsize
+  % \begin{tabular}{r l l l}
+  %     \toprule
+  %     & Variable/Function &  Quantity \\
+  %     \midrule
+  %     maximize             & Data downloaded & 1\\
+  %     \\
+  %     with respect to & B-spline control schedules  & 25200\\
+  %                     & physical design vars. & 92\\
+  %                     \\
+  %     subject to          & charge, current, temp battery constraints & $30$ \\
+  %     \bottomrule
+  % \end{tabular}
 
-  \begin{textblock}{8}(2,8.5)\scriptsize
+  \begin{columns}
+      \begin{column}{.5\textwidth}
+        \includegraphics[width=1.1\textwidth]{images/cadre_prob_form}
+      \end{column}
+      \begin{column}{.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{images/cadre_drawing}
+
+        \hspace{3em}\includegraphics[width=.55\textwidth]{images/allpts_gearth_mcmurdo}
+      \end{column}
+  \end{columns}
+  
+  \begin{textblock}{8}(12,4)\scriptsize
     [Hwang, et al.  2014]
   \end{textblock}
-
-  \vspace{1em}
-  \centering
-  \scriptsize
-  \begin{tabular}{r l l l}
-      \toprule
-      & Variable/Function &  Quantity \\
-      \midrule
-      maximize             & Data downloaded & 1\\
-      \\
-      with respect to & B-spline control schedules  & 25200\\
-                      & physical design vars. & 92\\
-                      \\
-      subject to          & charge, current, temp battery constraints & $30$ \\
-      \bottomrule
-  \end{tabular}
 }
 
 \frame{
@@ -407,6 +470,12 @@
   \includegraphics[width=.9\textwidth]{images/pymission_xdsm}
 }
 
+\frame{
+  \frametitle{Pymission finds optimial trajectories that \\
+              match traditionally expected results}
+  \includegraphics[width=\textwidth]{images/Scitech_CarpetRange}
+}
+
 \section[New problems]{Applying OpenMDAO to new problems}
 \tocframe{\tableofcontents[currentsection]}
 
@@ -424,8 +493,8 @@
 }
 
 \frame{
-  \frametitle{OpenMDAO provides tools to approach \\
-              design problems in new ways }
+  \frametitle{Gradients are very useful, OpenMDAO computes them \\ 
+               efficiently for multidisciplinary problems}
   \begin{itemize}[itemsep=1em]
     \item Mixed FD/analytic derivatives for better speed and accuracy
     \item Break up single disciplines into sub models \\ to compute 
